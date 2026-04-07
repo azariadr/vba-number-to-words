@@ -5,7 +5,7 @@ This repository provides a VBA-based function to automatically convert numbers i
 ---
 
 ## 📄 Source Code
-The source code is located in **`excel`** and **`word`**. Simply copy the text from that file and follow the steps below.
+The source code is located in **`excel.vba`** and **`word.vba`**. Simply copy the text from that file and follow the steps below.
 
 ---
 
@@ -22,7 +22,7 @@ If you are new to VBA, don't worry! Follow these simple steps to get the functio
 1. Press `Alt + F11` to open the VBA Editor.
    *(Note: If the shortcut doesn't work, go to the **Developer** tab and click the **Visual Basic** icon).*
 2. In the menu bar, click **Insert > Module**.
-3. A blank white window will appear. **Copy and paste** the code from `excel` into that window.
+3. A blank white window will appear. **Copy and paste** the code from `excel.vba` into that window.
 4. Close the VBA Editor window.
 
 ### Step 3: Using the Function
