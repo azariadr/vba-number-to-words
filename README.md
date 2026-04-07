@@ -1,36 +1,28 @@
-# Terbilang (Number-to-Words) for Excel & Word 🚀
+# Terbilang (Number-to-Words) for Excel & Word
 
 This repository provides a VBA-based function to automatically convert numbers into written words (Terbilang). Perfect for finance administration, generating invoices, or any document that requires formal currency/number naming.
 
 ---
 
-## 📑 Table of Contents
-1. [How to Install & Use (Excel Beginners)](#how-to-install--use-for-beginners)
-2. [Level Up: Use in ALL Excel Files (Add-In)](#level-up-use-the-function-in-all-your-excel-files-excel-add-in)
-3. [How to Use in Microsoft Word](#how-to-use-in-microsoft-word)
-4. [Source Code](#source-code)
-
----
-
 ## 📄 Source Code
-The source code is located in terbilang-vba.txt. Simply copy the text from that file and follow the steps below.
+The source code is located in **excel** and **word**. Simply copy the text from that file and follow the steps below.
 
 ---
 
-## 🟢 How to Install & Use (For Beginners)
+## How to Install & Use (For Beginners)
 If you are new to VBA, don't worry! Follow these simple steps to get the function working:
 
 ### Step 1: Enable the Developer Tab
-1. Right-click anywhere on the Ribbon (the top menu bars).
-2. Select Customize the Ribbon.
-3. In the right-hand list under Main Tabs, check the box for Developer.
-4. Click OK.
+1. **Right-click** anywhere on the Ribbon (the top menu bars).
+2. Select **Customize the Ribbon**.
+3. In the right-hand list under **Main Tabs**, check the box for **Developer**.
+4. Click **OK**.
 
 ### Step 2: Add the Script to VBA
-1. Press Alt + F11 to open the VBA Editor.
+1. Press 'Alt + F11' to open the VBA Editor.
    *(Note: If the shortcut doesn't work, go to the Developer tab and click the Visual Basic icon).*
 2. In the menu bar, click Insert > Module.
-3. A blank white window will appear. Copy and paste the code from terbilang-vba.txt into that window.
+3. A blank white window will appear. Copy and paste the code from **excel** into that window.
 4. Close the VBA Editor window.
 
 ### Step 3: Using the Function
@@ -63,7 +55,7 @@ Make the function available permanently in every Excel file you open:
 
 ---
 
-## 🔵 How to Use in Microsoft Word
+## How to Use in Microsoft Word
 In Word, the macro replaces a selected number with words.
 
 ### Step 1: The Setup
@@ -79,4 +71,3 @@ In Word, the macro replaces a selected number with words.
 > Pro-Tip: To use this in *every* Word document, paste the code under the "Normal" project in the VBA Editor sidebar instead of "Document1".
 
 ---
-Built with ☕ and a passion for efficiency.
