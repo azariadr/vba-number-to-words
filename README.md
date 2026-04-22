@@ -30,6 +30,8 @@ You can now use it like a regular Excel formula:
 - Type: `=Terbilang(A1)` (assuming the number is in cell A1).
 - Press **Enter**, and the number will convert automatically!
 
+To generate a neat and accurate "Terbilang" (spell-out) text with proper rounding, use the following formula combination: `=PROPER(Terbilang(ROUND(A1; 0)))`
+
 > [!IMPORTANT]
 > **Important Note for Excel:** When saving your file, make sure to save it as an **Excel Macro-Enabled Workbook (.xlsm)**. If you save it as a standard .xlsx file, the script will be removed.
 
